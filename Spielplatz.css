@@ -1,0 +1,109 @@
+#logo{
+    margin: auto;
+    float: left;
+ text-decoration: none;
+}
+
+#gross {
+    background-color: aquamarine;
+    border: 10px solid black;
+    width: auto;
+    height: 150px;
+    padding: 50px;
+    position: inherit;
+    display: block;
+   font-size: 75px;
+   color: black;
+   font-family: Arial Black;
+   padding:60px;
+   text-align: center;
+   border-radius: 1000px;
+}
+
+p{
+    margin-top: 50px;
+}
+
+#inhalt{
+    margin-left:700px;
+    margin-right:300px;
+    margin-top:80px;
+}
+
+#liste{
+    background-color: beige;
+    border: 5px black solid;
+    height: 300px;
+    weight:50px;
+    float:left;
+    margin-top:350px;
+    margin-left: 100px;
+    position: absolute;
+    padding: 10px;
+}
+
+#liste ul{
+    list-style:none;
+    text-align: center;
+ margin-top:10px;
+ margin-right:20px;
+
+ padding:10px;
+}
+
+#OrtevollerSpaß {
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+#intro p {
+    text-align: center;
+}
+
+#butt{
+    margin-left: 700px;
+    margin-top: 100px;
+    width: 200px;
+    height: 100px;
+    background-color: beige;
+    animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  transition: width 2s, height 4s;
+}
+
+
+#titel{
+    font-size:100px;
+ font-family: Arial Black;
+ text-align: center;
+}
+
+
+table{
+    background-color: beige;
+    width: 100px;
+    border: 5px solid;
+    border-spacing: 0px;
+    border-radius: 10px;
+    padding: 0;
+   float:right;
+   margin:100px 0px 100px 100px;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+
+  #buttdown{
+    width: 200px;
+    height: 100px;
+  }
+
+  #swapi{
+     margin-top: 100px;
+  }

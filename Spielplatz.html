@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+   <link rel="stylesheet" type = "text/css" href="Spielplatz.css">
+   <script language="javascript" type="text/javascript" src="Spielplatz.js"></script>
+<head>
+    <title>Spiel und Spaß mit HTML</title>
+</head>
+
+<body>
+    <div id="gross">
+      <img id="logo" src="pngaaa.com-4253340.png" alt="Hier sollte ein Bild sein" width="250px" height="150px">
+
+      Spiel und Spaß <br>mit HTML 
+    </div>
+    
+    <div id="liste">
+        <h2 >Warum HTML Spaß macht</h1>
+        <ul>
+          <li>Interaktive Formulare</li>
+          <li>Responsive Webdesign</li>
+          <li>Multimedia-Inhalte</li>
+          <li>HTML Canvas</li>
+          <li>Barrierefreiheit (Accessibility)</li>
+          <li>SEO-optimiertes HTML</li>
+          <li>One-Page-Websites</li>
+          <li>Interaktive Tabellen</li>
+          <li>Webkomponenten</li>
+          <li>Game Development mit HTML5</li>
+        </ul>
+
+    </div>
+    <p id="titel">
+      <u>Was ist HTML überhaupt?</u>
+    </p>
+   
+    <h1>
+      <div id="inhalt">
+       <p>
+        <center>
+        HTML (Hypertext Markup Language) ist die standardisierte Auszeichnungssprache, die zur Strukturierung und Darstellung von Inhalten im Web verwendet wird.
+     Sie bildet das Grundgerüst jeder Webseite, indem sie Elemente wie Überschriften, Absätze, Links, Bilder und Tabellen definiert.
+      HTML besteht aus einer Reihe von Tags, die den Webbrowser anweisen, wie bestimmte Inhalte angezeigt werden sollen.
+       Es ist keine Programmiersprache, sondern eine Markup-Sprache, die es ermöglicht, Texte zu strukturieren und Hyperlinks zwischen verschiedenen Seiten zu erstellen.
+        HTML bildet die Basis für alle Webseiten und wird oft zusammen mit CSS und JavaScript verwendet, um interaktive und ansprechende Webanwendungen zu erstellen.  
+        </center>
+    
+  </p>   
+      </div>
+      
+    </h1>
+   
+    <table border="1">
+      <tbody>
+        <tr>
+          <td colspan="2"><a href="https://de.wikipedia.org/wiki/HTML5"><img  id="html" src="HTML5.png" alt="HTML" width="300" height="300" ></a></td>
+        </tr>
+        <tr>
+          <td>Bedeutung:</td>
+          <td>HTML steht für Hypertext Markup Lenguege</td>
+        </tr>
+        <tr>
+          <td>Erschienen:</td>
+          <td>HTML wurde im Jahr 1992 erstmals verfföntlicht</td>
+        </tr>
+        <tr>
+          <td>Entwickler:</td>
+          <td>die "World Wide Web Consortium" hat HTML entwickelt</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <button id="butt">Mach dich schlau</button>
+    <button id="buttdown" onclick="changeColorToRed()">Click mich!!!</button>
+
+    <div id="newDiv"></div>
+   <br>
+    <input id="Zahl1" type="number" value="" placeholder = "Zahl1">
+    <input id="Rechenoperator" type="text" value="" placeholder = "Rechenoperator">
+    <input id="Zahl2" type="number" value="" placeholder = "Zahl2">
+    <input id="Ergebnis" name="Ergebnis" type="number" value="" placeholder="Ergebnis">
+    <button id="calculate" onclick="calculateOnClick()">calculate</button>
+  <br>
+    <input id="swapi" type="text" value="" onchange="swapiOnChange()">
+    <div id="swapiOutput"></div>
+</body>
+</html>
